@@ -58,6 +58,7 @@
             this.searchForCardNumberToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.HelpMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.ContentCard)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Tab1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -175,14 +176,14 @@
             // cardFileToolStripMenuItem
             // 
             this.cardFileToolStripMenuItem.Name = "cardFileToolStripMenuItem";
-            this.cardFileToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cardFileToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.cardFileToolStripMenuItem.Text = "Card File";
             this.cardFileToolStripMenuItem.Click += new System.EventHandler(this.cardFileToolStripMenuItem_Click);
             // 
             // cardToolStripMenuItem
             // 
             this.cardToolStripMenuItem.Name = "cardToolStripMenuItem";
-            this.cardToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cardToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.cardToolStripMenuItem.Text = "Card";
             // 
             // FileOpen
@@ -304,11 +305,20 @@
             this.aboutToolStripMenuItem.Text = "About...";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(12, 100);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(381, 184);
+            this.textBox1.TabIndex = 5;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(478, 315);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.ContentCard);
@@ -364,6 +374,7 @@
         private System.Windows.Forms.ToolStripStatusLabel CardNum;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel CardTotal;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
