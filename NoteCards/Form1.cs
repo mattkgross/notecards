@@ -53,7 +53,12 @@ namespace NoteCards
             dialog.Filter = "XML File|*.xml";
             dialog.ShowDialog();
 
-            Functionalities.newCard(dialog.FileName);
+            Functionalities.newCardFile(dialog.FileName);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
