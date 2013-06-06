@@ -25,5 +25,10 @@ namespace XMLReader
 
             writer.Close();
         }
+
+        public static void deleteCard()
+        {
+            // delete current card
+        }
     }
 }
