@@ -13,6 +13,11 @@ namespace XMLReader
     public class Constants
     {
         internal static FileStream file;
+        // XML tools
+        internal static XmlReader reader;
+        internal static XmlWriter writer;
+        // Card Cache
+
     }
 
     public class Functionalities
