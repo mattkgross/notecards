@@ -17,11 +17,15 @@ namespace XMLReader
         internal static XmlReader reader;
         internal static XmlWriter writer;
         // Card Cache
-
+        List<activeData> cache;
     }
 
     public class Functionalities
     {
+        /// <summary>
+        /// Creates a new cardfile.
+        /// </summary>
+        /// <param name="fileName">Name of the cradfile</param>
         public static void newCardFile(string fileName)
         {
             XElement cfile = new XElement("cardfile");
@@ -38,6 +42,28 @@ namespace XMLReader
             newCard(0); 
         }
 
+        /// <summary>
+        /// Opens a cardfile and parses its contents into cache.
+        /// </summary>
+        /// <param name="filepath">Path to XML cardfile.</param>
+        public static void openCard(string filepath)
+        {
+            // open the file and parse into cache
+        }
+
+        /// <summary>
+        /// Parses the cache into an XML file and saves it.
+        /// </summary>
+        /// <param name="filepath">Path to XML cardfile.</param>
+        public static void saveCard(string filepath)
+        {
+            // save all data from cache into XML file
+        }
+
+        /// <summary>
+        /// Create a new card at the specified location within the cardfile.
+        /// </summary>
+        /// <param name="currentPosition">Current position of the card that is being viewed.</param>
         public static void newCard(int currentPosition)
         {
             // add new card in current position
@@ -47,9 +73,13 @@ namespace XMLReader
             }
         }
 
-        public static void deleteCard()
+        /// <summary>
+        /// Delete a card from the cardfile.
+        /// </summary>
+        /// <param name="cardNum">Number of the card to be deleted.</param>
+        public static void deleteCard(int cardNum)
         {
-            // delete current card
+            //Constants.cache.
         }
     }
 }
