@@ -19,20 +19,64 @@ namespace NoteCards
         /// <param name="contentIn"></param>
         public activeData(int numIn, string titleIn, string contentIn)
         {
+            cardNum = numIn;
+            title = titleIn;
+            content = contentIn;
         }  
         /// <summary>
-        /// 
+        /// Getter method for card number.
         /// </summary>
-        /// <returns></returns>
-        public int getCardNum();
-        public string getTitle();
-        public string getContent();
-            bool setCardNum(int numIn);
-            bool setTitle(string titleIn);
-            int setContent(string contentIn);
-        private:
-            int cardNum;
-            string title;
-            string content;
+        /// <returns> card number integer </returns>
+        public int getCardNum()
+        {
+            return cardNum;
+        }
+        /// <summary>
+        /// Getter method for card title string.
+        /// </summary>
+        /// <returns> title of card </returns>
+        public string getTitle()
+        {
+            return title;
+        }
+        /// <summary>
+        /// Getter method for card content.
+        /// </summary>
+        /// <returns> card content string </returns>
+        public string getContent()
+        {
+            return content;
+        }
+        /// <summary>
+        /// Setter method for card number element.
+        /// </summary>
+        /// <param name="numIn"></param>
+        public void setCardNum(int numIn)
+        {
+            cardNum = numIn;
+        }
+        /// <summary>
+        /// Setter method for card title.
+        /// </summary>
+        /// <param name="titleIn"></param>
+        public void setTitle(string titleIn)
+        {
+            title = titleIn;
+        }
+        /// <summary>
+        /// Setter method for card content.
+        /// </summary>
+        /// <param name="contentIn"></param>
+        /// <returns> integer number of characters written </returns>
+        public int setContent(string contentIn)
+        {
+            content = contentIn;
+            return content.Length;
+        }
+        
+        // Private data members
+        private int cardNum;
+        private string title;
+        private string content;
     }
 }
