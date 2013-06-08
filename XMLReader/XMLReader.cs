@@ -10,16 +10,6 @@ using System.Xml;
 
 namespace XMLReader
 {
-    public class Constants
-    {
-        internal static FileStream file;
-        // XML tools
-        internal static XmlReader reader;
-        internal static XmlWriter writer;
-        // Card Cache
-        List<activeData> cache;
-    }
-
     public class Functionalities
     {
         /// <summary>
@@ -39,7 +29,7 @@ namespace XMLReader
             writer.Close();*/
 
             // default: start with one card
-            newCard(0); 
+            newCard(0);
         }
 
         /// <summary>

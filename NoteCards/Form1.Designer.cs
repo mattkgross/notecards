@@ -199,6 +199,7 @@
             this.FileSave.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.FileSave.Size = new System.Drawing.Size(195, 22);
             this.FileSave.Text = "Save";
+            this.FileSave.Click += new System.EventHandler(this.FileSave_Click);
             // 
             // FileSaveAs
             // 
