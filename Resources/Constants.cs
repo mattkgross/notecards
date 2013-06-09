@@ -10,13 +10,18 @@ using System.Xml;
 
 namespace Resources
 {
-    class Constants
+    public class Constants
     {
-        internal static FileStream file;
+        /* Files, I/O, & Cache */
+        public static FileStream file;
         // XML tools
-        internal static XmlReader reader;
-        internal static XmlWriter writer;
+        public static XmlReader reader;
+        public static XmlWriter writer;
         // Card Cache
-        internal List<activeData> cache;
+        public static List<activeData> cache;
+
+        /* Trackers */
+        // Bool to keep track of unsaved changes
+        public static bool changes;
     }
 }

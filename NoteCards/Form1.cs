@@ -27,6 +27,7 @@ namespace NoteCards
             toolStripStatusLabel1.Visible = false;
             CardNum.Text = "0";
             CardTotal.Text = "0";
+            Constants.changes = false;
         }
 
         private void ContentCard_Click(object sender, EventArgs e)
