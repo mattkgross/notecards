@@ -9,7 +9,7 @@ namespace Resources
      * and/or edited.  Each card is implemented using an activeData object, and
      * the complete cardfile data is stored in a list of activeData objects.
      */
-    class activeData
+    public class activeData
     {
         /// <summary>
         /// Constructor for activeData class.
@@ -22,7 +22,7 @@ namespace Resources
             cardNum = numIn;
             title = titleIn;
             content = contentIn;
-        }  
+        }
         /// <summary>
         /// Getter method for card number.
         /// </summary>
@@ -73,7 +73,7 @@ namespace Resources
             content = contentIn;
             return content.Length;
         }
-        
+
         // Private data members
         private int cardNum;
         private string title;

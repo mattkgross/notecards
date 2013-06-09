@@ -18,6 +18,17 @@ C:\Users\Conrad\Documents\GitHub\notecards\NoteCards\obj\x64\Debug\NoteCards.csp
 C:\Users\Conrad\Documents\GitHub\notecards\NoteCards\obj\x64\Debug\NoteCards.MainForm.resources
 C:\Users\Conrad\Documents\GitHub\notecards\NoteCards\obj\x64\Debug\NoteCards.Properties.Resources.resources
 C:\Users\Conrad\Documents\GitHub\notecards\NoteCards\obj\x64\Debug\NoteCards.csproj.GenerateResource.Cache
+C:\Users\Matt Gross\Documents\GitHub\notecards\NoteCards\bin\x64\Debug\NoteCards.exe.config
+C:\Users\Matt Gross\Documents\GitHub\notecards\NoteCards\bin\x64\Debug\NoteCards.exe
+C:\Users\Matt Gross\Documents\GitHub\notecards\NoteCards\bin\x64\Debug\NoteCards.pdb
+C:\Users\Matt Gross\Documents\GitHub\notecards\NoteCards\bin\x64\Debug\Resources.dll
+C:\Users\Matt Gross\Documents\GitHub\notecards\NoteCards\bin\x64\Debug\XMLReader.dll
+C:\Users\Matt Gross\Documents\GitHub\notecards\NoteCards\bin\x64\Debug\Resources.pdb
+C:\Users\Matt Gross\Documents\GitHub\notecards\NoteCards\bin\x64\Debug\XMLReader.pdb
+C:\Users\Matt Gross\Documents\GitHub\notecards\NoteCards\bin\x64\Debug\XMLReader.xml
+C:\Users\Matt Gross\Documents\GitHub\notecards\NoteCards\obj\x64\Debug\NoteCards.csprojResolveAssemblyReference.cache
 C:\Users\Matt Gross\Documents\GitHub\notecards\NoteCards\obj\x64\Debug\NoteCards.MainForm.resources
 C:\Users\Matt Gross\Documents\GitHub\notecards\NoteCards\obj\x64\Debug\NoteCards.Properties.Resources.resources
 C:\Users\Matt Gross\Documents\GitHub\notecards\NoteCards\obj\x64\Debug\NoteCards.csproj.GenerateResource.Cache
+C:\Users\Matt Gross\Documents\GitHub\notecards\NoteCards\obj\x64\Debug\NoteCards.exe
+C:\Users\Matt Gross\Documents\GitHub\notecards\NoteCards\obj\x64\Debug\NoteCards.pdb

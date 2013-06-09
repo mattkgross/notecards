@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using XMLReader;
 using System.IO;
 using System.Xml;
+using Resources;
 
 namespace NoteCards
 {

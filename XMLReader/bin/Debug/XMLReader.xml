@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XMLReader</name>
+    </assembly>
+    <members>
+        <member name="M:XMLReader.Functionalities.newCardFile(System.String)">
+            <summary>
+            Creates a new cardfile.
+            </summary>
+            <param name="fileName">Name of the cradfile</param>
+        </member>
+        <member name="M:XMLReader.Functionalities.openCard(System.String)">
+            <summary>
+            Opens a cardfile and parses its contents into cache.
+            </summary>
+            <param name="filepath">Path to XML cardfile.</param>
+        </member>
+        <member name="M:XMLReader.Functionalities.saveCard(System.String)">
+            <summary>
+            Parses the cache into an XML file and saves it.
+            </summary>
+            <param name="filepath">Path to XML cardfile.</param>
+        </member>
+        <member name="M:XMLReader.Functionalities.newCard(System.Int32)">
+            <summary>
+            Create a new card at the specified location within the cardfile.
+            </summary>
+            <param name="currentPosition">Current position of the card that is being viewed.</param>
+        </member>
+        <member name="M:XMLReader.Functionalities.deleteCard(System.Int32)">
+            <summary>
+            Delete a card from the cardfile.
+            </summary>
+            <param name="cardNum">Number of the card to be deleted.</param>
+        </member>
+    </members>
+</doc>
