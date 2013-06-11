@@ -176,15 +176,16 @@
             // cardFileToolStripMenuItem
             // 
             this.cardFileToolStripMenuItem.Name = "cardFileToolStripMenuItem";
-            this.cardFileToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.cardFileToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.cardFileToolStripMenuItem.Text = "Card File";
             this.cardFileToolStripMenuItem.Click += new System.EventHandler(this.cardFileToolStripMenuItem_Click);
             // 
             // cardToolStripMenuItem
             // 
             this.cardToolStripMenuItem.Name = "cardToolStripMenuItem";
-            this.cardToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.cardToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.cardToolStripMenuItem.Text = "Card";
+            this.cardToolStripMenuItem.Click += new System.EventHandler(this.cardToolStripMenuItem_Click);
             // 
             // FileOpen
             // 

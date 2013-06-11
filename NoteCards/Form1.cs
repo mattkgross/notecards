@@ -45,6 +45,14 @@ namespace NoteCards
 
         private void cardFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (Constants.changes)
+            {
+                DialogResult result = MessageBox.Show("Do you want to save the changes to your current cardfile?", "Save Changes", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if(result == DialogResult.Yes)
+                    // save current card file, then flush the buffer
+            }
+            
             SaveFileDialog dialog = new SaveFileDialog();
             dialog.AddExtension = true;
             dialog.CheckPathExists = true;
@@ -60,12 +68,22 @@ namespace NoteCards
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            Constants.changes = true;
         }
 
         private void FileSave_Click(object sender, EventArgs e)
         {
-            //if()
+            
+        }
+
+        private void saveFile(string filepath)
+        {
+
+        }
+
+        private void cardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
